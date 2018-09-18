@@ -1,0 +1,27 @@
+# QUESTIONS TO MYSELF
+#  does "load" load once i.e. do i have to reload?
+#  how do I query price history I want to be able to query this
+# ***This has to say "if supplier by that name has not been created yet, then create it. Otherwise, use THAT supplier and assign it to this variable"
+# What is the right order of listing instance vs (private?) variables?
+# What is the best order of laying out class methods and variables?
+# What is the right spacing between methods and variables etc?
+# How do I install and run that gem that checks your code for best OOD practices?
+# How do I more properly run tests? I need to include them in a separate file.
+
+# USER STORIES
+# * As a user, When I create a product with a supplier that does not exist
+# I want to be able to create that supplier on the fly
+# * Otherwise, if that supplier does exist, I want to "associate" it with
+# that particular supplier
+# Products by that Supplier's name - i.e. those products have to "belong" or
+# be associated with that supplier.
+# * I also want to track a product's price history - DONE, implemented via hash
+# * If I created a supplier and some products to go with it, but misspelled
+# the name, I want to be able to easily change the name right there and then.
+# If I want to correct the spelling of a product's name after I've created it,
+# I want to be able to do that. - DONE
+# (How do you implement multiples currencies in a system???)
+# (What is the difference between Date.new and Time.new?)
+# Note: Because product originally weren't initialized with a price_history,
+# When I later change their prices, I get an error, as there is no place to
+# store it!
